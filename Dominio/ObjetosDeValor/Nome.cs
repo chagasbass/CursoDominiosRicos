@@ -15,8 +15,8 @@ namespace Dominio.ObjetosDeValor
 
             AddNotifications(new Contract()
                 .Requires()
-                .IsNullOrEmpty(PrimeiroNome, "Nome", "Nome inválido"))
-                .IsNullOrEmpty(Sobrenome, "Sobrenome", "Sobrenome inválido");
+                .IsNullOrEmpty(PrimeiroNome, "Nome", "Nome inválido")
+                .IsNullOrEmpty(Sobrenome, "Sobrenome", "Sobrenome inválido"));
 
            
                 

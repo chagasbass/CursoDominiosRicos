@@ -16,7 +16,7 @@ namespace Dominio.ObjetosDeValor
 
             AddNotifications(new Contract()
                 .Requires()
-                .IsTrue(ValidarDocumento(), "Numero", "Documento inválido");
+                .IsTrue(ValidarDocumento(), "Numero", "Documento inválido"));
 
         }
 
