@@ -98,7 +98,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comandos\ComandoResultado.cs" />
+    <Compile Include="Comandos\IComando.cs" />
+    <Compile Include="Comandos\IComandoResultado.cs" />
     <Compile Include="Entidades\Entidade.cs" />
+    <Compile Include="Handlers\IHandler.cs" />
     <Compile Include="ObjetosDeValor\ObjetoDeValor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

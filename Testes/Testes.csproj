@@ -109,6 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comandos\CriarEstudanteComandoTeste.cs" />
     <Compile Include="Entidades\EstudanteTeste.cs" />
     <Compile Include="ObjetosDeValor\DocumentoTeste.cs" />
     <Compile Include="UnitTest1.cs" />

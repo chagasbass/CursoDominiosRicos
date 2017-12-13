@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comandos\CriarEstudanteComando.cs" />
     <Compile Include="Entidades\Assinatura.cs" />
     <Compile Include="Entidades\BoletoPagamento.cs" />
     <Compile Include="Entidades\CartaoPagamento.cs" />
@@ -105,11 +106,14 @@
     <Compile Include="Entidades\Pagamento.cs" />
     <Compile Include="Entidades\PayPalPagamento.cs" />
     <Compile Include="Enums\ETipoDocumento.cs" />
+    <Compile Include="Handlers\EstudanteHandler.cs" />
     <Compile Include="ObjetosDeValor\Documento.cs" />
     <Compile Include="ObjetosDeValor\Email.cs" />
     <Compile Include="ObjetosDeValor\Endereco.cs" />
     <Compile Include="ObjetosDeValor\Nome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\EstudanteQueries.cs" />
+    <Compile Include="Repositorios\IEstudanteRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Compartilhados\Compartilhados.csproj">
@@ -117,11 +121,7 @@
       <Name>Compartilhados</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Comandos\" />
-    <Folder Include="Handlers\" />
-    <Folder Include="Repositorios\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
